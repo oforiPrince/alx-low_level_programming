@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - print a string using printf
- * Description: a c program that prints a string using print f
+ * Description: using the main function
+ * this c program that prints a string using print f
  * Retun: 0
  */
 int main(void)

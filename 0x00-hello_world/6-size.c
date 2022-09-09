@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- *  main - Enty point
- *Description: Description here
+ *  main - prints the size of various types on the computer
+ *Description: using the main function
+ *a C program that prints the size of various types on the computer it is compiled and run
  *  Return: 0
  */
 int main(void)

@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main -prints all possible different combinations of three digits
- * Description: a program that prints all possible different combinations of three digits
- * Return: 0 Success
+ * main - prints all possible different combinations of two digits
+ * Return: 0
  */
 int main(void)
 {
@@ -16,9 +15,11 @@ int main(void)
 			putchar((digit2 % 10) + '0');
 
 			if (digit1 == 8 && digit2 == 9)
-				continue;
+					continue;
+
 				putchar(',');
-				putchar(' ');
+					putchar(' ');
+
 		}
 	}
 	putchar('\n');

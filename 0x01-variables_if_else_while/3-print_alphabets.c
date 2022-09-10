@@ -9,18 +9,23 @@
 int main(void)
 {
 	int a, b;
+
 	a = 97;
 	b = 65;
+
 	while (a < 123)
 	{
 		putchar(i);
 		a++;
 	}
+
 	while (b < 91)
 	{
 		putchar(j);
 		b++;
 	}
+
 	putchar(10);
-return (0);
+
+	return (0);
 }

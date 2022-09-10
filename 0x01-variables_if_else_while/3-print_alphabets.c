@@ -8,24 +8,25 @@
 
 int main(void)
 {
-	int a, b;
+	char ch;
 
-	a = 97;
-	b = 65;
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 
-	while (a < 123)
 	{
-		putchar(i);
-		a++;
+
+		putchar(ch);
+
 	}
 
-	while (b < 91)
+	for (ch = 'A' ; ch <= 'Z' ; ch++)
+
 	{
-		putchar(j);
-		b++;
+
+		putchar(ch);
+
 	}
 
-	putchar(10);
+	putchar('\n');
 
 	return (0);
 }

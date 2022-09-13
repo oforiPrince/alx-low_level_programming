@@ -2,7 +2,8 @@
 
 /**
  * main: prints _putchar
- * Description: a program that prints _putchar
+ * Description: using main function
+ * this program prints _putchar
  * Return: 0
  */
 

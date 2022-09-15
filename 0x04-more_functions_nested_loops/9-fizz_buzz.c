@@ -1,30 +1,25 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * print_square - function
+ * main - main function
  *
- * @size: parameter
- *
- * Return: return value
+ * Return: end program
  */
-void print_square(int size)
+int main(void)
 {
-	int rows = size;
-	int orSize = size;
+	int n = 1;
 
-	if (size > 0)
+	while (n < 100)
 	{
-		while (size--)
-		{
-			while (rows--)
-			{
-				_putchar(35);
-			}
-			_putchar(10);
-			rows = orSize;
-		}
+		if (n % 15 == 0)
+			printf("FizzBuzz ");
+		else if (n % 5 == 0)
+			printf("Buzz ");
+		else if (n % 3 == 0)
+			printf("Fizz ");
+		else
+			printf("%d ", n);
+		n++;
 	}
-	else
-	{
-		_putchar(10);
-	}
+	printf("Buzz\n");
+	return (0);
 }

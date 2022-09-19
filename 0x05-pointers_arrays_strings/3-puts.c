@@ -1,19 +1,17 @@
 #include "main.h"
 /**
- * _strlen - function
+ * _puts - function
  *
- * @s: pointer of parameter
- *
- * Return: return n's value
+ * @str: pointer of parameter
  */
-int _strlen(char *s)
+void _puts(char *str)
 {
-	int n = 0;
+	int i = 0;
 
-	while (s[n] != '\0')
+	while (str[i] != '\0')
 	{
-		n++;
+		_putchar(str[i]);
+		i++;
 	}
-
-	return (n);
+	_putchar(10);
 }

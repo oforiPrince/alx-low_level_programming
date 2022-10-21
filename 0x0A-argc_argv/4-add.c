@@ -19,7 +19,7 @@ bool isNumeric(char *s)
 			return (false);
 		}
 	}
-	return (true):
+	return (true);
 }
 
 /**
